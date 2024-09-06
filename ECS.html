@@ -131,3 +131,120 @@
     <h1></h1>
 </body>
 </html>
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        header {
+            background-color: #facac1;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 20px 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background-color: #ffb6c1; /* Light pink background */
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding-top: 20px;
+            overflow-y: auto; /* Make the sidebar scrollable */
+        }
+
+        .sidebar ul {
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            list-style: none;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .sidebar ul li a {
+            color: white; /* White text */
+            display: block;
+            padding: 10px;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #ff8fa3; /* Slightly darker pink on hover */
+        }
+
+        /* Main content shifted to the right of the sidebar */
+        .main-content {
+            margin-left: 260px; /* Space for the sidebar */
+            padding: 20px;
+        }
+
+        /* Center the profile image and add styling */
+        .profile-image {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .profile-image:hover {
+            box-shadow: 0 10px 20px rgb(255, 251, 40);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#saree">Sarees</a></li>
+            <li><a href="#kurtis">Kurtis</a></li>
+            <li><a href="#wedding">Wedding Section</a></li>
+            <li><a href="#gowns">Gowns</a></li>
+            <li><a href="#suits">Suits</a></li>
+            <li><a href="#lehenga">Lehengas</a></li>
+            <li><a href="#partywear">Party Wear</a></li>
+            <li><a href="#sales">Sales</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Welcome to Our Fashion Store</h1>
+            <p>Your one-stop shop for all types of women's party dresses!</p>
+        </header>
+
+        <img src="banars.jpg" alt="Profile Image" class="profile-image">
+        
+        <!-- Add more content about products here -->
+    </div>
+
+</body>
+</html>
